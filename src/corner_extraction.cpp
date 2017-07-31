@@ -39,6 +39,8 @@ using namespace pcl;
 
 //catkin_make -DCMAKE_BUILD_TYPE=Release
 
+//HOLA MUNDO!!!lfkgjlkfdjlkjlkfhjlfkghj
+
 
 //const unsigned int MIN_CLUSTER_POINTS = 200;
 const unsigned int MIN_CLUSTER_POINTS = 70;
