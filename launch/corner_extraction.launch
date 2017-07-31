@@ -1,0 +1,11 @@
+<!-- Launch file for TF broadcaster used for defining relative transformations
+     between corner_extraction and loam_velodyne frames
+     
+     Clayder Gonzalez 2017 -->
+
+<launch>
+	<node pkg="corner_extraction" type="corner_extraction" name="corner_extraction" output="screen"/>
+
+	<node pkg="tf" type="static_transform_publisher" name="corner_extraction_tf" 
+	      args="0 0 0 1.57 0 1.57 velodyne camera 10"/>
+</launch>
